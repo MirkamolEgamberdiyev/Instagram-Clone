@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">AndroidЛокализация</string>
+    <string name="lan_english">английский</string>
+    <string name="lan_russian">русский</string>
+    <string name="lan_uzbek">узбекский</string>
+
+    <plurals name="my_cats">
+        <item quantity="one">У меня %s кошка </item>
+        <item quantity="few">У меня %s Кот </item>
+        <item quantity="many">У меня %s кошек</item>
+    </plurals>
+
+</resources>

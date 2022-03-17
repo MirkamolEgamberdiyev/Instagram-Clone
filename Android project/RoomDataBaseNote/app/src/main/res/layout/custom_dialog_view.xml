@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:orientation="vertical"
+    android:background="#222222"
+    android:layout_height="wrap_content">
+
+    <EditText
+        android:id="@+id/edittext_title"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:padding="5dp"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="20dp"
+        android:hint="Emter your note title"
+        android:background="@drawable/edittext_shape"
+        android:textColorHint="#cbcbcb"/>
+    <EditText
+        android:id="@+id/edittext_note"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:padding="5dp"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="20dp"
+        android:hint="Emter your note "
+        android:background="@drawable/edittext_shape"
+        android:textColorHint="#cbcbcb"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginHorizontal="16dp"
+            android:weightSum="2">
+            <Button
+                android:id="@+id/tv_cancel"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Cancel"
+                android:gravity="center"
+                android:textSize="14sp"
+                android:textAllCaps="true"
+                android:textColor="#00C6AE"/>
+            <Button
+                android:id="@+id/tv_save"
+                android:layout_width="0dp"
+                android:layout_marginStart="10dp"
+                android:layout_height="wrap_content"
+                android:text="Confirm"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:textAllCaps="true"
+                android:textColor="#00C6AE"/>
+        </LinearLayout>
+
+
+
+
+</LinearLayout>

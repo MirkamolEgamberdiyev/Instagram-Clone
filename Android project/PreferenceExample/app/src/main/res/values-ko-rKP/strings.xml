@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PreferenceExample</string>
+
+    <string name="lan_english">영어</string>
+    <string name="lan_korean">한국어</string>
+    <string name="lan_uzbek">러시아인</string>
+    <string name="lan_japan">일본</string>
+
+    <plurals name="my_cats">
+        <item quantity="one">%s 고양이가 있습니다</item>
+        <item quantity="other">고양이 %s마리가 있습니다</item>
+    </plurals>
+</resources>

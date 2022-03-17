@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PreferenceExample</string>
+
+    <string name="lan_english">Ingliz tili</string>
+    <string name="lan_korean">Karis tili</string>
+    <string name="lan_uzbek">O`zbek tili</string>
+    <string name="lan_japan">Yapon tili</string>
+
+    <plurals name="my_cats">
+        <item quantity="one">Mening %s ta mushigim bor</item>
+        <item quantity="other">Mening %s ta mushiglarim bor</item>
+    </plurals>
+</resources>

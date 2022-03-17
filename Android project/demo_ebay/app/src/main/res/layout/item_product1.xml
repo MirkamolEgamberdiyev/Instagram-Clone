@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/black"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    android:layout_height="wrap_content">
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/image1"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/blankets_image"
+        app:shapeAppearanceOverlay="@style/circle"/>
+    <TextView
+        android:id="@+id/title_product1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Blankets"
+        android:layout_marginTop="10dp"
+        android:textSize="18sp"
+        android:textColor="#90ffffff"/>
+
+
+</LinearLayout>

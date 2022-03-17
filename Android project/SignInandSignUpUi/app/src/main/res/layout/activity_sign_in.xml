@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/backround_gradiant"
+    android:padding="25dp"
+    tools:context=".activity.SignInActivity">
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+
+        <EditText
+            android:id="@+id/et_email"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:background="@drawable/view_rounded_corner"
+            android:hint="Email"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:textColor="#ffffff"
+            android:textColorHint="#90ffffff"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/et_password"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/view_rounded_corner"
+            android:hint="Password"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:textColor="#ffffff"
+            android:textColorHint="#90ffffff"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/b_signin"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/view_rounded_corner"
+            android:backgroundTint="@null"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="Sign In"
+            android:textAllCaps="false"
+            android:textColor="#ffffff"
+            android:textSize="16sp" />
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:gravity="right|center_vertical"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:text="Don't you have an account?"/>
+        <TextView
+            android:id="@+id/tv_signup"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:text="Sign Up"/>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

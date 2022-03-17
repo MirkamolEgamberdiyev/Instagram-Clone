@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">PreferenceExample</string>
+
+
+    <string name="lan_english">English</string>
+    <string name="lan_korean">Korean</string>
+    <string name="lan_uzbek">Uzbek</string>
+    <string name="lan_japan">Japan</string>
+
+
+    <plurals name="my_cats">
+        <item quantity="one">I have %s cat</item>
+        <item quantity="other">I have %s cats</item>
+    </plurals>
+</resources>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/black"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/image_head"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:background="@drawable/shape_border_rounded_white"
+        android:src="@drawable/img_1"/>
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Bose QuietComfort Earbuds"
+        android:textColor="#90ffffff"
+        android:layout_marginTop="10dp"
+        android:textSize="15sp"/>
+    <TextView
+        android:id="@+id/cost"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="$199.00"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"/>
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/discount"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="$279.00 . 29% OFF"
+            android:textColor="#90ffffff"
+            android:textSize="15sp"/>
+        <LinearLayout
+            android:layout_width="55dp"
+            android:layout_height="1dp"
+            android:background="#90ffffff"
+            android:layout_marginTop="10dp"/>
+
+    </FrameLayout>
+
+
+
+
+</LinearLayout>

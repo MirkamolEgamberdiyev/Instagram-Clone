@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_balance"
+        android:icon="@drawable/ic_baseline_credit_card_24"
+        android:title="Balance" />
+
+    <item
+        android:id="@+id/navSupport"
+        android:icon="@drawable/ic_baseline_fiber_new_24"
+        android:title="News" />
+    <item
+        android:id="@+id/nav_orderHistory"
+        android:icon="@drawable/ic_baseline_history_24"
+        android:title="Order History" />
+
+    <item
+        android:id="@+id/navAdverts"
+        android:icon="@drawable/ic_baseline_credit_card_24"
+        android:title="Parcel Adverts" />
+    <item
+        android:id="@+id/navSettings"
+        android:icon="@drawable/ic_baseline_credit_card_24"
+        android:title="Settings" />
+
+    <item
+        android:id="@+id/navPayment"
+        android:icon="@drawable/ic_baseline_credit_card_24"
+        android:title="Payment" />
+    <item
+        android:id="@+id/navAbout"
+        android:icon="@drawable/ic_baseline_credit_card_24"
+        android:title="About" />
+
+    <item
+        android:id="@+id/navLogOut"
+        android:icon="@drawable/ic_baseline_credit_card_24"
+        android:title="Log Out" />
+
+</menu>

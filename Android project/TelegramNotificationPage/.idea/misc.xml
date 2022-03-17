@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android project/TelegramNotificationPage/app/src/main/res/drawable/cornor_person.xml" value="0.2203125" />
+        <entry key="..\:/Android project/TelegramNotificationPage/app/src/main/res/drawable/custom_thump.xml" value="0.2169230769230769" />
+        <entry key="..\:/Android project/TelegramNotificationPage/app/src/main/res/drawable/custom_track.xml" value="0.2169230769230769" />
+        <entry key="..\:/Android project/TelegramNotificationPage/app/src/main/res/drawable/ic_account_box_black_24dp.xml" value="0.2203125" />
+        <entry key="..\:/Android project/TelegramNotificationPage/app/src/main/res/drawable/ic_baseline_arrow_back_ios_new_24.xml" value="0.2203125" />
+        <entry key="..\:/Android project/TelegramNotificationPage/app/src/main/res/drawable/ic_baseline_keyboard_arrow_right_24.xml" value="0.2203125" />
+        <entry key="..\:/Android project/TelegramNotificationPage/app/src/main/res/drawable/ic_groups_black_24dp.xml" value="0.2203125" />
+        <entry key="..\:/Android project/TelegramNotificationPage/app/src/main/res/drawable/ic_toggle_off_black_24dp.xml" value="0.2203125" />
+        <entry key="..\:/Android project/TelegramNotificationPage/app/src/main/res/drawable/ic_toggle_on_black_24dp.xml" value="0.2203125" />
+        <entry key="..\:/Android project/TelegramNotificationPage/app/src/main/res/drawable/ic_toggle_on_white_24dp.xml" value="0.2203125" />
+        <entry key="..\:/Android project/TelegramNotificationPage/app/src/main/res/drawable/shape_corner.xml" value="0.2203125" />
+        <entry key="..\:/Android project/TelegramNotificationPage/app/src/main/res/layout/activity_main.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

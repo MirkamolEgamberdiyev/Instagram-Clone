@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nambimobile.widgets.efab.ExpandableFabLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.nambimobile.widgets.efab.Overlay
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:overlay_orientation="portrait" />
+
+    <com.nambimobile.widgets.efab.ExpandableFab
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        app:efab_openingAnimationDurationMs="0"
+        app:efab_orientation="portrait" />
+
+    <com.nambimobile.widgets.efab.FabOption
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:fab_orientation="portrait"
+        app:label_text="1" />
+
+    <com.nambimobile.widgets.efab.FabOption
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:fab_orientation="portrait"
+        app:label_text="1" />
+
+    <com.nambimobile.widgets.efab.FabOption
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:fab_orientation="portrait"
+        app:label_text="1" />
+
+
+
+    <!--    <com.nambimobile.widgets.efab.Overlay-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent"-->
+    <!--        app:overlay_orientation="portrait" />-->
+
+    <!--    <com.nambimobile.widgets.efab.ExpandableFab-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_gravity="bottom|end"-->
+    <!--        android:layout_marginEnd="15dp"-->
+    <!--        android:layout_marginRight="15dp"-->
+    <!--        android:layout_marginBottom="15dp"-->
+    <!--        app:efab_orientation="landscape" />-->
+
+    <!--    <com.nambimobile.widgets.efab.FabOption-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:onClick="onClickLandscapeOption1"-->
+    <!--        app:fab_orientation="landscape"-->
+    <!--        app:label_text="Landscape Option 1"-->
+    <!--        tools:ignore="OnClick" />-->
+
+
+</com.nambimobile.widgets.efab.ExpandableFabLayout>

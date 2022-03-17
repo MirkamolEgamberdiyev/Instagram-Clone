@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android project/demo_twitter/app/src/main/res/drawable/favorite_border_24.xml" value="0.1175" />
+        <entry key="..\:/Android project/demo_twitter/app/src/main/res/drawable/file_upload_24.xml" value="0.1175" />
+        <entry key="..\:/Android project/demo_twitter/app/src/main/res/drawable/ic_commet.xml" value="0.1175" />
+        <entry key="..\:/Android project/demo_twitter/app/src/main/res/drawable/rouded_corner.xml" value="0.1175" />
+        <entry key="..\:/Android project/demo_twitter/app/src/main/res/drawable/transform_24.xml" value="0.1175" />
+        <entry key="..\:/Android project/demo_twitter/app/src/main/res/layout/activity_main.xml" value="0.175" />
+        <entry key="..\:/Android project/demo_twitter/app/src/main/res/layout/item_custom_video.xml" value="0.20416666666666666" />
+        <entry key="..\:/Android project/demo_twitter/app/src/main/res/layout/item_cutom_post.xml" value="0.20416666666666666" />
+        <entry key="..\:/Android project/demo_twitter/app/src/main/res/layout/item_feed_post.xml" value="0.22" />
+        <entry key="..\:/Android project/demo_twitter/app/src/main/res/layout/item_feed_post2.xml" value="0.2" />
+        <entry key="..\:/Android project/demo_twitter/app/src/main/res/layout/item_feed_story.xml" value="0.20416666666666666" />
+        <entry key="..\:/Android project/demo_twitter/app/src/main/res/layout/item_video.xml" value="0.20416666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
