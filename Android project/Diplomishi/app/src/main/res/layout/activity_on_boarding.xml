@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".OnBoardingActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/iv_student"
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            android:src="@drawable/ic_student"/>
+        <ImageView
+            android:id="@+id/iv_teacher"
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            android:src="@drawable/ic_teacher"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_student"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Talaba"
+        android:textAllCaps="false"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:visibility="gone"
+        android:layout_marginHorizontal="15dp"
+        android:textColor="@color/white"
+        android:textSize="16sp"/>
+
+    <Button
+        android:id="@+id/btn_teacher"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="15dp"
+        android:text="O`qtuvchi"
+        android:layout_marginTop="10dp"
+        android:textAllCaps="false"
+        android:visibility="gone"
+        android:textColor="@color/white"
+        android:textSize="16sp"/>
+
+
+</LinearLayout>

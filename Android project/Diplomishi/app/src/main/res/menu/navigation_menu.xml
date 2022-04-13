@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/homeFragment"
+        android:icon="@drawable/ic_home"
+        android:title="Maruzalar" />
+    <item
+        android:id="@+id/moviesFragment"
+        android:icon="@drawable/ic_picture"
+        android:title="Laboratoriyalar" />
+    <item
+        android:id="@+id/photosFragment"
+        android:icon="@drawable/ic_menu_slideshow"
+        android:title="Testlar" />
+    <item
+        android:id="@+id/nav_notifications"
+        android:icon="@drawable/ic_notifications"
+        android:title="Logout" />
+    <item
+        android:id="@+id/nav_settings"
+        android:icon="@drawable/ic_settings"
+        android:title="Settings" />
+    <item android:title="Others">
+        <menu>
+            <item
+                android:id="@+id/nav_aboutUs"
+                android:title="About Us" />
+            <item
+                android:id="@+id/nav_privacyPolicy"
+                android:title="Privacy Policy" />
+        </menu>
+    </item>
+
+</menu>
